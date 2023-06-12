@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+::-webkit-scrollbar {
+    width : 10px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-button {
+    background-color: black;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray   ;
+    border-radius: 20px;
+}
+
+body {
+    margin: 0%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.NavigationBar {
+    /* margin-left: 100px;
+    margin-right: 100px;
+    height: 70px;
+    line-height: 70px; */
+    height: 745px;
+}
+
+.logo { 
+    /* display: inline-flex; */
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    /* padding-left: 100px; */
+    color: black;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+.MainLinks {
+    color: white;
+}
+
+li {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.rightNav {
+    display: flex;
+    justify-content: center;
+    /* margin-top: -20px; */
+}
+
+.rightNav ul{
+    list-style: none;
+    display: flex;
+}
+
+.footer{
+    background-color: black;
+}
+
+.copyright {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
