@@ -20,58 +20,128 @@
     border-radius: 20px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0%;
     font-family: 'Lexend Deca', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 a {
     text-decoration: none;
 }
 
+hr.line {
+    border-top: solid #2A3D4B;
+    border-bottom: solid #59AA33;
+    width: 320px;
+    /* color: green; */
+    height: 0px;
+    border-width: 0.5px;
+}
+
 .NavigationBar {
-    /* margin-left: 100px;
-    margin-right: 100px;
-    height: 70px;
-    line-height: 70px; */
     height: 745px;
 }
 
 .logo { 
-    /* display: inline-flex; */
-    justify-content: center;
     text-align: center;
     padding-top: 15px;
-    /* padding-left: 100px; */
     color: black;
     line-height: 1.5;
-    vertical-align: middle;
 }
 
 .MainLinks {
-    color: white;
+    color: #2A3D4B;
+    margin: 0px;
 }
 
 li {
-    padding-left: 20px;
-    padding-right: 20px;
     text-align: center;
+}
+
+.center {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .rightNav {
     display: flex;
     justify-content: center;
-    /* margin-top: -20px; */
 }
 
 .rightNav ul{
     list-style: none;
     display: flex;
+    margin: 0px;
+    padding-left: 0px;
+    padding-top: 12px;
 }
 
+.heading {
+    font-size: 30px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    float: left;
+    width: 80%;
+    margin-left: 100px;
+    height: 650px;
+}
+
+.Emission {
+    background-image: url(EmissionCalculator3.jpg);
+    background-size: cover;
+    height: 650px;
+}
+
+.header {
+    height: 95px;
+    background-color: #FEF3F1;
+}
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.EmissionCalculator {
+    /* background-color: #FEF3F1; */
+    height: 745px;
+}
+
+.EC {
+    /* padding-top: 95px; */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.btn-EC {
+    background-color: #D3628B;
+    border: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    /* margin-left: 270px; */
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+
 .footer{
-    background-color: black;
+    background-color: #D3628B;
 }
 
 .copyright {
